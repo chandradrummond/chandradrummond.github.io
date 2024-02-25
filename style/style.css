@@ -27,11 +27,11 @@ h1 {
   font-size: 13px;
 }
 
-.nav-link--blue {
+.nav-link--index {
   background-color: blue;
 }
 
-.nav-link--gold {
+.nav-link--articles {
   background-color: rgb(146, 107, 17);
 }
 
