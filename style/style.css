@@ -4,46 +4,16 @@ body {
   margin: 0;
 }
 
-a {
-  color: rgb(146, 107, 17);
-}
-
-#index h1 {
-  color: rgb(251, 249, 238);
-  background-color: blue;
-  padding: 20px;
-  margin: 0;
-}
-
 h1 {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: normal;
 }
 
-.nav-link {
-  padding: 12px 20px;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 13px;
+a {
+  color: rgb(146, 107, 17);
 }
 
-.nav-link--index {
-  background-color: blue;
-}
-
-.nav-link--articles {
-  background-color: rgb(146, 107, 17);
-}
-
-.nav-link a {
-  color: rgb(251, 249, 238);
-  text-decoration: none;
-}
-
-.nav-link a::before {
-  content: "← ";
-}
-
+/* Wraps content to the middle of the page. */
 .wrapper {
   max-width: 640px;
   margin: auto;
@@ -51,6 +21,40 @@ h1 {
   padding-right: 20px;
 }
 
+/* Index page. */
+#index h1 {
+  color: rgb(251, 249, 238);
+  background-color: blue;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Nav – Stripes for site-wide navigation. */
+.nav-link {
+  padding: 12px 20px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 13px;
+  display: block;
+  text-decoration: none;
+}
+
+.nav-link::before {
+  content: "← ";
+}
+
+.nav-link--index {
+  background-color: blue;
+  color: rgb(251, 249, 238);
+}
+
+.nav-link--articles {
+  background-color: rgb(146, 107, 17);
+  color: rgb(251, 249, 238);
+}
+
+/* Row list - List with date and title without bullet point, and lines above and below.
+Links occupy all the area of each item. */
 .row-list {
   list-style-type: none;
   padding: 0;
