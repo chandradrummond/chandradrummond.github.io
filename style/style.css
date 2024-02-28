@@ -83,3 +83,11 @@ Links occupy all the area of each item. */
   display: inline-block;
   width: 80px;
 }
+
+/* Muted - For texts that are relevant, but not the focus of the page */
+.muted {
+  color: rgb(184, 184, 184);
+}
+.muted a{
+  color: rgb(196, 178, 136);
+}
