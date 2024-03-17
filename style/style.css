@@ -53,6 +53,26 @@ a {
   color: rgb(251, 249, 238);
 }
 
+.nav-home {
+  padding: 12px 20px;
+  margin-bottom: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 13px;
+  background-color: blue;
+  text-align: center;
+}
+
+.nav-home a {
+  color: rgb(251, 249, 238);
+  text-decoration: none;
+  padding: 12px 8px;
+  margin: 0px 2px;
+}
+
+.nav-internal-page {
+  margin-bottom: 50px;
+}
+
 /* Row list - List with date and title without bullet point, and lines above and below.
 Links occupy all the area of each item. */
 .row-list {
@@ -88,6 +108,28 @@ Links occupy all the area of each item. */
 .muted {
   color: rgb(184, 184, 184);
 }
-.muted a{
+
+.muted a {
   color: rgb(196, 178, 136);
+}
+
+/* Box image home - Image box above nav in home */
+.box-image-home {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+/* Figure gelaria - Remove the margin */
+figure.galeria {
+  margin: 0;
+}
+
+figure.galeria img {
+  width: 100%;
+}
+
+figure.galeria figcaption {
+  font-size: 11px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
