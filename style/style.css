@@ -55,7 +55,6 @@ a {
 
 .nav-home {
   padding: 12px 20px;
-  margin-bottom: 50px;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 13px;
   background-color: blue;
@@ -119,6 +118,7 @@ Links occupy all the area of each item. */
   height: 150px;
   object-fit: cover;
   display: block;
+  margin-bottom: 50px;
 }
 /* Figure gelaria - Remove the margin */
 figure.galeria {
