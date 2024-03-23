@@ -13,6 +13,10 @@ a {
   color: rgb(146, 107, 17);
 }
 
+hr {
+  border: 0.25px solid rgb(90, 86, 86);
+}
+
 /* Wraps content to the middle of the page. */
 .wrapper {
   max-width: 640px;
@@ -120,7 +124,8 @@ Links occupy all the area of each item. */
   display: block;
   margin-bottom: 50px;
 }
-/* Figure gelaria - Remove the margin */
+
+/* Figure galeria - Remove the margin */
 figure.galeria {
   margin: 0;
 }
@@ -130,6 +135,15 @@ figure.galeria img {
 }
 
 figure.galeria figcaption {
+  font-size: 11px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.blog-post {
+  margin: 50px 0px;
+}
+
+.blog-date {
   font-size: 11px;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
